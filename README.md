@@ -1,7 +1,7 @@
 # Convert_mp3_to_wav
                                       ***Important NOTE: IT CAN ONLY BE FOR PYTHON 2.7 ***
 This project has step by step instructions that how to convert "mp3 format to wav format" also has python module by which anyone could use two functions acording to their need.
-The file "mp3_ to_wav_step_by_step" contain all the libraries and codes that will use in the program (remember the libraries will only work for python 2.7 module)
+The file "mp3_ to_wav_step_by_step" contain all the libraries and codes that will use in the program (remember the libraries will only work for python 2.7 module).
 The "mp3ConvertWav.ipynb" has a method to make a class and user defined functions.
 The "p3ConvertWav.py" is the module file.
 You can past this module file in the python built-in package and modules folders:
