@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 # importingm all liabraries that we need
@@ -11,7 +11,7 @@ from pydub import AudioSegment
 import glob
 
 
-# In[5]:
+# In[ ]:
 
 
 # creating class
@@ -50,13 +50,13 @@ class con:
 
         for file in audio_files:
             #spliting the file into the name and the extension
-            wav = os.path.splitext(file)[0]+ '.wav'
+            wav = os.path.splitext(file)[0] + '.wav'
             mp3_sound = AudioSegment.from_mp3(file)
-
             #rename them using the old name + ".wav"
             mp3_sound.export(wav, format="wav")
             os.remove(file)
-        print ("mp3 converted and removed mp3 into wav");
+            print(wav)
+        print ("The files successfully converted and previous files deleted!")
         
 
 
