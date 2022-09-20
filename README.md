@@ -23,4 +23,4 @@ if  you are using module you can use following commands:
           # for converting and deleting the previous files type:
       con.cut(**file path***)
       
- ***** This method will convert whole file of mp3 withing a givin folder ******
+ ***** This method will convert whole files of mp3 withing a givin folder ******
